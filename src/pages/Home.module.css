@@ -1,0 +1,187 @@
+.PageHeader{
+    width: 100vw;
+}
+
+.pageContainer {
+    height: 100vh;
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+
+.contentContainer{
+    width:100%;
+    height:100%; /*changing this to 100vh messes things up*/
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+}
+
+.greeting{
+    text-align: center;
+    /* background-color: aquamarine; */
+    padding:0;
+    font-weight: bolder;
+    font-size:1.75rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+
+.content{
+    /* border: 1px green;
+    border-style: solid; */
+    text-align: center;
+    font-size: 1.5rem;
+    /* background-color:blueviolet; */
+    padding:0;
+    width: 50%;
+}
+.content a {
+    text-decoration: none;    
+}
+
+
+.imageContainer{
+    width:100vw;
+    height:100%; /*changing this to 100vh messes things up*/
+    flex:1;
+    justify-content: center;
+    display:flex;
+}
+
+.headShot {
+    border-radius: 50%;
+    width:22rem;
+    height:22rem;
+    object-fit:cover;
+}
+
+
+.InParaLink{
+    position:relative;
+}
+.InParaLink::after{
+    content:'';
+    position:absolute;
+    background-color: #8aa2ff;
+    width: 100%;
+    height: 2px;
+    left:0;
+    bottom:-0.25px;
+
+}
+
+.KeepTogether {
+    white-space: nowrap;
+    display: inline-block;
+  }
+
+@media (max-height:800px){
+    .IconList {
+        padding:1rem;
+    }
+
+    .content{
+        width:90vw;
+    }
+
+    .SocialIcon{
+        width:2rem;
+        height:2rem;
+    }
+
+    .headShot{
+        width:13rem;
+        height:13rem;
+    }
+}
+@media (max-width:680px){
+    .headShot{
+        width:19rem;
+        height:19rem;
+        
+    }
+
+    .contentContainer{
+        padding:0;
+        margin:0;
+    }
+
+    .content{
+        font-size: 1.4rem;
+        width:70vw;
+    }
+}
+
+@media (max-width:680px) and (max-height:800px){
+
+    .headShot{
+        width:13rem;
+        height:13rem;
+    }
+
+    .imageContainer{
+        padding-bottom: 1.5rem;
+    }
+
+    .content{
+        font-size:1.2rem;
+        width:90vw;
+    }
+}
+
+@media (max-width:530px){
+    .headShot{
+        width:15rem;
+        height:15rem;
+    }
+
+    .imageContainer{
+        padding:0;
+        margin:0;
+        padding-bottom: 3rem;
+        flex:0;
+    }
+
+    .contentContainer{
+        flex:0;
+        padding:0;
+    }
+
+    .content{
+        font-size: 1.4rem;
+        width:80vw;
+    }
+
+    .IconList{
+        padding:0rem;
+        margin:0;
+    }
+
+    .greeting{
+        padding:0;
+    }
+}
+
+@media (max-width:530px) and (max-height:800px){
+
+    .headShot{
+        width:13rem;
+        height:13rem;
+    }
+
+    .imageContainer{
+        padding-bottom: 1.5rem;
+    }
+
+    .content{
+        font-size:1.2rem;
+        width:90vw;
+    }
+}

@@ -1,0 +1,21 @@
+.SocialIcon{
+    width: 3rem;
+    height:3rem;
+}
+
+.IconList {
+    list-style-type: none;
+    display:flex;
+    /* background-color: aqua; */
+    justify-content: center;
+    padding:0;
+    padding:2rem;
+    padding-bottom:1rem;
+    background-color: #f2f3f8;
+    margin:0;
+}
+
+.IconList li {
+    padding-left:1rem;
+    padding-right:1rem;
+}
