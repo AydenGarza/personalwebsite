@@ -29,12 +29,11 @@ function About(){
                 
                 <span className={AboutPageStyle.answer}>
                     <p>
-                        In my three semesters studying computer science, I've gained a solid foundations in core areas like object oriented programming, data structures, algorithms, and data analysis by taking courses in digital logic, data structures, data science, and applied mathematics. This Spring 2025 semester, I'm taking Algorithms, Computer Organization, Fundamentals of C++, and Software Development with Java.
+                        In my three semesters studying computer science, I've gained a solid foundations in core areas like object oriented programming, data structures, algorithms, and data analysis by taking courses in digital logic, data structures, data science, and applied mathematics. This fourth semester during Spring 2025, I'm taking Algorithms, Computer Organization, Fundamentals of C++, and Software Development with Java. These classes are helping me use the foundational computer science skills I've gained to tackle real world problems in software engineering and computing.
                     </p>
 
                     <p>
-                        Outside of the classroom, I look for opportunities to apply my skills in a professional working environment. I had such an opportunity this past Spring 2024 semester as a software engineering intern at OHEL Technologies.
-                        During my time at OHEL, I used my skills in Python and the ELK stack to work on an AI application with a team of other software engineers.
+                        Outside of my studies, I look for opportunities to learn more about the world of software engineering. I build projects that help me learn new technologies or help solve real world problems. I also look to sharpen my skills by using them in a professional working environment to contribute and grow. I had such an opportunity this past Spring 2024 semester as a software engineering intern at OHEL Technologies. During my time at OHEL, I used my skills in Python and the ELK stack to work on an AI application with a team of other software engineers.
                     </p>
                     
                 </span>

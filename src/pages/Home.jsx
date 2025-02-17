@@ -2,7 +2,7 @@ import Header from '../components/Header.jsx';
 import Footer from '../components/Footer.jsx'
 import HomePageStyle from './Home.module.css';
 import {Link} from 'react-router-dom';
-import headShot from './images/headshot.jpeg';
+import headShot from './images/headshotupdated.jpeg';
 
 //npm start to run dev env
 //commit to main, then 'npm run deploy' to get it live
@@ -25,7 +25,7 @@ function Home() {
                 </div>
 
                 <main className={HomePageStyle.content}>
-                    Welcome to my site! I'm a computer science student at Colorado State University and an aspiring software engineer. A <div className={HomePageStyle.KeepTogether}><Link to="/about" className={HomePageStyle.InParaLink}>tech nerd at heart</Link></div>, I love all things software, math, and data. Some of my recent projects involve neural networks, <div className={HomePageStyle.KeepTogether}><Link to="/projects" className={HomePageStyle.InParaLink}>check them out</Link></div>!
+                    Welcome to my site! I'm a computer science student at Colorado State University and an aspiring software engineer. A <div className={HomePageStyle.KeepTogether}><Link to="/about" className={HomePageStyle.InParaLink}>tech nerd at heart</Link></div>, I love all things software, math, and data. Some of my recent projects involve neural networks and React websites, <div className={HomePageStyle.KeepTogether}><Link to="/projects" className={HomePageStyle.InParaLink}>check them out</Link></div>!
                 </main>
             </div>
             <Footer></Footer>
